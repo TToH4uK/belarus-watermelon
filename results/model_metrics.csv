@@ -1,0 +1,13 @@
+﻿series,model,approach,MAE,RMSE,"MAPE, %",n_folds,best
+import_qty,ETS (затухающий тренд),статистическая,6805.1,7127.71,28.82,6,True
+import_qty,GradientBoosting (лаги),машинное обучение,6537.35,8117.14,29.58,6,False
+import_qty,Наивный (эталон),эталон,4981.67,5436.75,20.79,6,False
+import_value,ETS (затухающий тренд),статистическая,684.86,750.89,14.06,6,True
+import_value,GradientBoosting (лаги),машинное обучение,941.18,1193.72,17.76,6,False
+import_value,Наивный (эталон),эталон,691.67,886.62,13.15,6,False
+export_qty,ETS (затухающий тренд),статистическая,215.93,335.07,304.9,8,True
+export_qty,GradientBoosting (лаги),машинное обучение,1790.9,4146.67,3653.8,8,False
+export_qty,Наивный (эталон),эталон,187.72,232.63,188.82,8,False
+export_value,ETS (затухающий тренд),статистическая,38.71,46.72,251.91,8,True
+export_value,GradientBoosting (лаги),машинное обучение,97.26,159.29,1345.81,8,False
+export_value,Наивный (эталон),эталон,37.15,46.09,164.24,8,False
