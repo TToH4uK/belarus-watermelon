@@ -1,0 +1,25 @@
+﻿series,model,approach,MAE,RMSE,"MAPE, %",n_folds,best
+import_qty,ETS (затухающий тренд),статистическая,6805.1,7127.71,28.82,6,False
+import_qty,GradientBoosting (лаги),машинное обучение,6537.35,8117.14,29.58,6,False
+import_qty,Наивный (эталон),эталон,4981.67,5436.75,20.79,6,False
+import_value,ETS (затухающий тренд),статистическая,684.86,750.89,14.06,6,True
+import_value,GradientBoosting (лаги),машинное обучение,941.18,1193.72,17.76,6,False
+import_value,Наивный (эталон),эталон,691.67,886.62,13.15,6,False
+export_qty,ETS (затухающий тренд),статистическая,215.93,335.07,304.9,8,True
+export_qty,GradientBoosting (лаги),машинное обучение,1790.9,4146.67,3653.8,8,False
+export_qty,Наивный (эталон),эталон,187.72,232.63,188.82,8,False
+export_value,ETS (затухающий тренд),статистическая,38.71,46.72,251.91,8,True
+export_value,GradientBoosting (лаги),машинное обучение,97.26,159.29,1345.81,8,False
+export_value,Наивный (эталон),эталон,37.15,46.09,164.24,8,False
+import_qty,ARIMA (statsmodels),статистическая,5916.06,6756.74,25.09,6,True
+import_qty,XGBoost (лаги),машинное обучение,7497.11,9420.29,31.95,6,False
+import_qty,LightGBM (лаги),машинное обучение,6169.43,8113.54,28.52,6,False
+import_value,ARIMA (statsmodels),статистическая,907.13,1121.57,19.03,6,False
+import_value,XGBoost (лаги),машинное обучение,1153.34,1363.84,22.8,6,False
+import_value,LightGBM (лаги),машинное обучение,770.61,1123.65,14.08,6,False
+export_qty,ARIMA (statsmodels),статистическая,343.86,391.04,885.7,8,False
+export_qty,XGBoost (лаги),машинное обучение,1439.77,2327.66,1158.71,8,False
+export_qty,LightGBM (лаги),машинное обучение,313.64,429.99,1122.94,8,False
+export_value,ARIMA (statsmodels),статистическая,65.25,76.39,480.24,8,False
+export_value,XGBoost (лаги),машинное обучение,187.13,316.61,529.64,8,False
+export_value,LightGBM (лаги),машинное обучение,95.56,168.4,1369.86,8,False
